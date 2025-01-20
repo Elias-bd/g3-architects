@@ -304,8 +304,24 @@ nav a {
 }
 
 
+/* footer styles  */
 
+footer{
+  max-width: 1440px;
+  height: 100px;
+  background-color: #FFF4E7;
+  margin: 0 auto;
+  margin-top: 150px;
+  justify-content: center;
+  text-align: center;
+}
 
+.f-title{
+font-size: 1.25rem;
+font-weight: 400;
+  color: rgba(66, 66, 66, 1);
+  padding-top: 40px;
+}
 
 
 
