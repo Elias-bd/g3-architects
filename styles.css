@@ -105,7 +105,7 @@ nav a {
 }
 
 /* team styles  */
-.teams{
+.teams {
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 70px;
@@ -116,29 +116,110 @@ nav a {
   gap: 100px;
 }
 
-.team-container{
+.team-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
-.team-slogan{
+.team-slogan {
   width: 530px;
   padding-top: 100px;
 }
 
-#quicklist{
+#quicklist {
   font-size: 2.75rem;
   font-weight: 500;
   color: rgba(114, 114, 114, 1);
 }
 
-#features{
+#features {
   font-size: 2.75rem;
   font-weight: 700;
   color: #FF900E;
 }
 
+/* feature styles  */
+.feature {
+  max-width: 1440px;
+  margin: 0 auto;
+
+
+}
+
+.feature-container {
+  display: flex;
+  gap: 200px;
+
+}
+
+.feature-content {
+  width: 586px;
+}
+
+.title {
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+/* card styles  */
+
+.card-container {
+  width: 100%;
+}
+
+#box {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  width: 100%;
+  padding: 30px 40px 30px 32px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(19, 19, 19, 1);
+  margin: 0 auto;
+}
+
+/* feature banner styles  */
+
+.feature-img img {
+  width: 700px;
+}
+
+
+/* badge styles  */
+
+.badge {
+  padding: 46px 42px;
+  background-color: #FF900E;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  margin-top: -120px;
+  margin-left: -100px;
+}
+
+.badge-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.badge-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 
 
 
@@ -156,7 +237,8 @@ nav a {
   }
 
   nav,
-  ul{
+  ul, 
+  .feature-container {
     flex-direction: column;
   }
 
@@ -179,11 +261,11 @@ nav a {
 
   }
 
-  .banner-img img{
+  .banner-img img {
     width: 100%;
   }
 
-  .team-container{
+  .team-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
@@ -193,14 +275,44 @@ nav a {
     max-width: 100%;
     margin: 70px auto;
   }
- .team-container img{
+
+  .team-container img {
     width: 100%;
   }
 
-  .team-slogan{
+  .team-slogan {
     width: calc(100% - 20px);
     padding: 10px 20px;
     text-align: center;
   }
+ .feature-container{
+  gap: 50px;
+ }
+  .feature-content, 
+  .feature-banner{
+    width: 100%;
+    margin-top: 0 auto;
+  }
+
+
+  .card{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 22px 20px 22px;
+  }
+
+  .feature-img img{
+    width: 100%;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .badge-btn .badge{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 0 auto;
+
+  }
+
 
 }
