@@ -271,6 +271,37 @@ nav a {
 
 }
 
+/* sponsor styles  */
+
+.our-sponsor{
+  max-width: 1440px;
+  margin: 0 auto;
+  /* justify-content: center;
+  text-align: center; */
+}
+
+.sponsor-content{
+  justify-content: center;
+  text-align: center;
+}
+
+.our-sponsor h3{
+  margin: 0 auto;
+}
+
+.sponsor-container{
+  margin-top: 50px;
+  filter: grayscale(100%);
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.sponsor-container img{
+  width: 120px;
+  margin-left: 100px;
+}
 
 
 
@@ -396,6 +427,20 @@ nav a {
     width: 100%;
     padding: 30px 20px 30px 20px;
 
+  }
+
+  .sponsor-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .sponsor-container img{
+    width: 100px;
+    margin: 20px;
   }
 
 
